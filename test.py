@@ -2,6 +2,7 @@ sequence = []
 sentence = []
 threshold = 0.8
 import cv2
+import tensorflow as tf
 
 from tet import mp_holistic,mediapipe_detection,draw_styled_landmarks,extract_keypoints
 # from model import model
@@ -35,7 +36,7 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
         print(results)
 
         # Draw landmarks
-        #draw_styled_landmarks(image, results)
+        draw_styled_landmarks(image, results)
 
         # 2. Prediction logic
         keypoints = extract_keypoints(results)
