@@ -1,23 +1,32 @@
-# Synapse_HackVita2023
-started the project
-## STEP 1 : Clone or download the backend codebase from the repository. 
-## https://github.com/samthakur587/Synapse_HackVita2023
-## STEP 2 : Navigate to the root directory of the backend codebase in your terminal or command prompt.
-## STEP 3 : Create a virtual environment by running the following command:
+#  Personal E-learning platform for deaf and dumb people 
+
+ This is a personal e-learning platform that allows you to take exams, view your exam scores, and learn from interactive lecture videos with quiz pop-ups. This platform is specially designed for deaf and mute people. We have created two APIs - one for sign detection and another for text-to-sign. This will help both parents and children communicate with each other.
+
+# these are following step to use this web app served with fastapi.
+
+# STEP 1 : Clone or download the backend codebase from the repository. 
+```bash
+git clone https://github.com/samthakur587/Synapse_HackVita2023
+```
+# STEP 2 : Navigate to the root directory of the backend codebase in your terminal or command prompt.
+```bash
+cd synapse_Hackvita2023
+```
+# STEP 3 : Create a virtual environment by running the following command:
 ```bash
 python3 -m venv env bash
 ```
  
 
-## STEP 4 : Activate the virtual environment by running the following command:
+# STEP 4 : Activate the virtual environment by running the following command:
 ```bash
 source env/bin/activate
 ```
-## STEP 5 : Install the required dependencies by running the following command:
+# STEP 5 : Install the required dependencies by running the following command:
 ```bash
 pip install -r requirements.txt
 ```
-## STEP 6 : After the installation is complete, start the server by running the following command:
+# STEP 6 : After the installation is complete, start the server by running the following command:
 ```bash
 uvicorn main:app --reload
 ```
@@ -31,7 +40,7 @@ Note: You may need to modify the main.py file to add your own API endpoints and 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Getting Started
 
 First, Install the required packages
 ```bash
